@@ -1,0 +1,28 @@
+.navbar-container {
+    display: grid;
+  justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header . navbar navbar";
+}
+
+.navbar {
+    grid-area: navbar;
+    justify-self: end;
+    align-self: flex-start;
+}
+
+.brand-container {
+    grid-area: header;
+    margin: 10px 25px;
+}
+
+.brand {
+    font-size: 42px;
+}
+
+.navbar-item {
+    margin: 0px 25px;
+    font-size: 20px;
+}
