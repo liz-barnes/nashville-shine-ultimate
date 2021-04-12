@@ -1,5 +1,21 @@
+.navbar-container {
+    display: grid;
+  justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header . navbar navbar";
+}
+
 .navbar {
-    display: flex;
+    grid-area: navbar;
+    justify-self: end;
+    align-self: flex-start;
+}
+
+.brand-container {
+    grid-area: header;
+    margin: 10px 25px;
 }
 
 .brand {
