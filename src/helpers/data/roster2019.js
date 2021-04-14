@@ -3,7 +3,7 @@ const roster2019 = [
     name: 'aaron wilder (P)',
   },
   {
-    name: 'andy "barney" barnhart*',
+    name: 'andy "barney" barnhart *',
   },
   {
     name: 'audrey cheng',
@@ -57,10 +57,10 @@ const roster2019 = [
     name: 'michael alberts (P)',
   },
   {
-    name: 'michael krohn*',
+    name: 'michael krohn *',
   },
   {
-    name: 'noel holmes*',
+    name: 'noel holmes *',
   },
   {
     name: 'orion paul (P)',
