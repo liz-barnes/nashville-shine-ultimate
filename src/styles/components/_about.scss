@@ -1,0 +1,42 @@
+#about-us {
+    color: gainsboro;
+    text-align: center;
+}
+
+.blurb {
+    padding-top: 25px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    opacity: 0.8;
+    line-height: 60px;
+    width: 50%;
+    margin: auto;
+}
+
+.SCF {
+    margin-top: 450px;
+    font-size: 24px;
+    font-style: italic;
+    text-transform: none;
+    font-family: $secondaryFont;
+    opacity: .8;
+}
+
+#shine-blurb {
+    display: flex;
+    background-color: $backgroundColor;
+}
+
+.shine-blurb {
+    color: $textColor;
+    padding: 45px 0px;
+    width: 55%;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+    border-top: 0.25px solid rgba(175, 236, 71, 0.5);
+    border-bottom: 0.25px solid rgba(175, 236, 71, 0.5);
+    opacity: .8;
+    line-height: 40px;
+    letter-spacing: 5px;
+}
