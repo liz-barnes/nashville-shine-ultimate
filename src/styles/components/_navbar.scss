@@ -10,12 +10,14 @@
         top: 0;
         z-index: 1;
     width: 100%;
+    color: $backgroundColor;
   }
   
   .navbar {
       grid-area: navbar;
       justify-self: end;
       align-self: flex-start;
+      margin-top: 10px;
   }
   
   .brand-container {
@@ -24,12 +26,20 @@
   }
   
   .brand {
-      font-size: 42px;
+      font-size: 50px;
+      color: $backgroundColor;
+      font-weight: bold;
+      margin: 0;
+  }
+
+  .city {
+      padding-left: 15px;
   }
   
   .navbar-item {
       margin: 0px 25px;
-      font-size: 20px;
+      font-size: 16px;
+      color: $backgroundColor;
   }
 // .navbar-container {
 //     display: grid;
