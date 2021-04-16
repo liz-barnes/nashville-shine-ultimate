@@ -26,7 +26,7 @@
   }
   
   .brand {
-      font-size: 50px;
+      font-size: 3.5vw;
       color: $backgroundColor;
       font-weight: bold;
       margin: 0;
@@ -34,39 +34,11 @@
 
   .city {
       padding-left: 15px;
+      margin: 0;
   }
   
   .navbar-item {
-      margin: 0px 25px;
-      font-size: 16px;
+      margin: 0px 20px;
+      font-size: 1.25vw;
       color: $backgroundColor;
   }
-// .navbar-container {
-//     display: grid;
-//   justify-content: center;
-//     grid-template-columns: 1fr 1fr 1fr 1fr;
-//     grid-template-rows: auto;
-//     grid-template-areas: 
-//       "header . navbar navbar";
-//       position: relative;
-// }
-
-// .navbar {
-//     grid-area: navbar;
-//     justify-self: end;
-//     align-self: flex-start;
-// }
-
-// .brand-container {
-//     grid-area: header;
-//     margin: 10px 25px;
-// }
-
-// .brand {
-//     font-size: 42px;
-// }
-
-// .navbar-item {
-//     margin: 0px 25px;
-//     font-size: 20px;
-// }

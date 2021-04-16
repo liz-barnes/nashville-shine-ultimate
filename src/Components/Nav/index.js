@@ -1,6 +1,10 @@
+// import { useState } from 'react';
 import { Link } from 'react-router-dom';
+// import { FaAlignRight } from 'react-icons/fa';
 
 export default function Nav() {
+  // const [toggle, setToggle] = useState(false);
+
   return (
     <div className='navbar-container'>
       <header className='brand-container'>
