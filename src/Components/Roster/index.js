@@ -14,7 +14,7 @@ export default function Roster() {
         <div className='rosters-container'>
         <div className='roster'>
             <h4 className='year'>2021</h4>
-            <li>coming soon!</li>
+            <li>coming soon! &#129312;</li>
           </div>
           <div className='roster'>
             <h4 className='year'>2019</h4>
