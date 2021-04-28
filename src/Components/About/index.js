@@ -1,5 +1,5 @@
 import React from 'react';
-import fives from '../../helpers/images/fives.jpeg';
+import fives from '../../helpers/images/fives.jpg';
 
 export default function About() {
   return (
