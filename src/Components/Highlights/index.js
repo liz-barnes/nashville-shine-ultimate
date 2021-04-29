@@ -3,35 +3,6 @@ import Gallery from 'react-photo-gallery';
 import gallery from '../../helpers/data/gallery';
 
 export default function Highlights() {
-  // const gallery = [
-  //   {
-  //     src: 'images/shine-booty.jpg',
-  //     width: 4,
-  //     height: 3,
-  //   },
-  //   {
-  //     src: 'images/shine-trip-d2.jpg',
-  //     width: 4,
-  //     height: 3,
-  //   },
-  //   {
-  //     src: 'images/shine-kels.jpg',
-  //     width: 4,
-  //     height: 3,
-  //   },
-  //   {
-  //     src: 'images/shine-sadie-layout.jpg',
-  //     width: 4,
-  //     height: 3,
-  //   },
-  //   {
-  //     src: 'images/shine-audrey.jpg',
-  //     width: 4,
-  //     height: 3,
-  //   },
-
-  // ];
-
   return (
     <div className="Highlights-Page">
       <div className="gallery-container">
