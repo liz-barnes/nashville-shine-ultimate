@@ -34,26 +34,9 @@ export default function Highlights() {
 
   return (
     <div className="Highlights-Page">
-      <div className='images-container'>
-            <img src="shine-noel.jpeg" alt='' />
-            <img src="shine-kels.JPG" alt='' />
-            <img src="shine-trip-d copy.JPG" alt='' />
-            <img src="shine-audrey.JPG" alt='' />
-            <img src="shine-kream.JPG" alt='' />
-            <img src="shine-sadie-layout.JPG" alt='' />
-            <img src="shine-cam-jump.jpg" alt='' />
-            <img src="shine-kels-grab.jpg" alt='' />
-            <img src="shine-aaron.JPG" alt='' />
-            <img src="shine-steven.JPG" alt='' />
-            <img src="shine-jeff-grab.jpg" alt='' />
-            <img src="shine-sadie.JPG" alt='' />
-            <img src="shine-booty.JPG" alt='' />
-            <img src="shine-trip-grab.JPG" alt='' />
-            <img src="shine-circle.JPG" alt='' />
-            <img src="shine-plane.JPG" alt='' />
-            <img src="shine-trip-flag.JPG" alt='' />
-            <img src="shine-wacker.JPG" alt='' />
-        </div>
+      <div className='gallery-container'>
+        <Gallery photos={gallery} />
+      </div>
         {/* <div class="video1">
             <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s_ezCrowWbg" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -62,9 +45,6 @@ export default function Highlights() {
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jXOFOk7GIn8" frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div> */}
-      <Gallery photos={gallery} />
-      {/* {gallery.map((image) => <img className='gallery-image' src={image.src[1]} alt='' />)} */}
-      {/* <img className='gallery-image' src={plane} alt=''/> */}
     </div>
   );
 }
