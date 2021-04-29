@@ -6,3 +6,21 @@
   margin: 0px 125px;
   padding-bottom: 50px;
 }
+
+.highlight-videos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: auto;
+  width: 75%;
+  padding-bottom: 50px;
+}
+
+.video {
+  padding: 10px
+}
+
+iframe {
+  width: 35rem;
+  position: relative;
+}
