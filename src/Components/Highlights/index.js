@@ -1,45 +1,40 @@
 import React from 'react';
 import Gallery from 'react-photo-gallery';
-// import gallery from '../../helpers/data/gallery';
-// import plane from '../../helpers/images/plane.jpg';
-import plane from '../../helpers/images/plane.jpg';
-// import fives from '../../helpers/images/fives.jpg';
-import noel from './shine-noel.jpg';
+import gallery from '../../helpers/data/gallery';
 
 export default function Highlights() {
-  const gallery = [
-    {
-      src: { plane },
-      width: 4,
-      height: 3,
-    },
-    {
-      src: '/static/media/plane.1c859e61.jpg',
-      width: 1,
-      height: 1,
-    },
-    {
-      src: noel,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: noel,
-      width: 4,
-      height: 3,
-    },
-    {
-      src: { plane },
-      width: 4,
-      height: 3,
-    },
+  // const gallery = [
+  //   {
+  //     src: 'images/shine-booty.jpg',
+  //     width: 4,
+  //     height: 3,
+  //   },
+  //   {
+  //     src: 'images/shine-trip-d2.jpg',
+  //     width: 4,
+  //     height: 3,
+  //   },
+  //   {
+  //     src: 'images/shine-kels.jpg',
+  //     width: 4,
+  //     height: 3,
+  //   },
+  //   {
+  //     src: 'images/shine-sadie-layout.jpg',
+  //     width: 4,
+  //     height: 3,
+  //   },
+  //   {
+  //     src: 'images/shine-audrey.jpg',
+  //     width: 4,
+  //     height: 3,
+  //   },
 
-  ];
+  // ];
 
   return (
     <div className="Highlights-Page">
       <div className='images-container'>
-      <img src="images/shine-kels.jpg" alt='' />
             <img src="shine-noel.jpeg" alt='' />
             <img src="shine-kels.JPG" alt='' />
             <img src="shine-trip-d copy.JPG" alt='' />
@@ -70,7 +65,6 @@ export default function Highlights() {
       <Gallery photos={gallery} />
       {/* {gallery.map((image) => <img className='gallery-image' src={image.src[1]} alt='' />)} */}
       {/* <img className='gallery-image' src={plane} alt=''/> */}
-      {console.warn(gallery[1].src.plane)}
     </div>
   );
 }
