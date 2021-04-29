@@ -1,5 +1,5 @@
 import React from 'react';
-import plane from '../../helpers/images/plane.jpeg';
+import plane from '../../helpers/images/plane.jpg';
 
 export default function Schedule() {
   return (
