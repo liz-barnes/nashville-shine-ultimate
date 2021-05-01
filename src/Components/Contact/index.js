@@ -18,9 +18,9 @@ export default function Contact() {
       <h1 className='contact-form-header'>Contact Us</h1>
       <div class="contact-form">
         <form id="contact-form" onSubmit={sendEmail}>
-            <input name="name" type="text" className="form-control" placeholder="Name" required /><br/>
-            <input name="email" type="text" className="form-control" placeholder="Email" required /><br/>
-            <input name="subject" type="text" className="form-control" placeholder="Subject" required /><br/>
+            <input name="name" type="text" className="form-control" placeholder="Name" required />
+            <input name="email" type="text" className="form-control" placeholder="Email" required />
+            <input name="subject" type="text" className="form-control" placeholder="Subject" required />
             <textarea name="message" type="text" className="form-control" placeholder="Message" rows="8" required></textarea><br/>
             <button type="submit" className='submit-button'>SUBMIT</button>
         </form>
