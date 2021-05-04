@@ -7,7 +7,7 @@ export default function Nav() {
         <Link to='/' className='brand'>
           <h1>'Shine</h1>
         </Link>
-        <p>Nashville, TN</p>
+        <p className='city'>Nashville, TN</p>
       </header>
       <nav className='navbar'>
         <div className='navbar-items'>
