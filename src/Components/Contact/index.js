@@ -13,6 +13,9 @@ export default function Contact() {
       });
     e.target.reset();
   }
+
+  // TO DO: Submit success pop up
+
   return (
     <div className="Contact page">
       <h1 className='contact-form-header'>Contact Us</h1>
