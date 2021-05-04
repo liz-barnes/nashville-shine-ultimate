@@ -1,0 +1,32 @@
+// TO DO: Update font
+.Contact {
+    margin-top: 125px;
+    text-align: center;
+}
+
+.contact-form {
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+}
+
+.contact-form-header {
+    letter-spacing: 2px;
+}
+
+.form-control {
+    margin: 10px 0px;
+}
+
+// TO DO: Style submit button
+.submit-button {
+    margin: 0px;
+    border-radius: 5px;
+    padding: 2px 15px;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: $accentColor;
+    border: 2px solid $accentColor;
+}
