@@ -22,6 +22,7 @@
   .brand-container {
       grid-area: header;
       margin: 10px 35px;
+      color: $backgroundColor;
   }
 
   .city {
@@ -33,6 +34,10 @@
       font-size: 42px;
       color: $backgroundColor;
       text-decoration: none;
+  }
+
+  .brand h1 {
+    font-weight: bolder;
   }
   
   a.navbar-item {
