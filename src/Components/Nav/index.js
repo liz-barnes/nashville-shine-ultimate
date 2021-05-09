@@ -1,9 +1,47 @@
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+} from 'reactstrap';
 
-export default function Nav() {
+export default function MyNavbar() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
   return (
     <div className='navbar-container'>
       <header className='brand-container'>
+        <Link to='/' className='brand'>
+          <h1>'Shine</h1>
+        </Link>
+        <p className='city'>Nashville, TN</p>
+      </header>
+      <Navbar color="light" light expand="md" className='justify-content-between'>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className='mr-auto' navbar>
+            <NavItem>
+              <Link to='/about' className='navbar-item'>about</Link>
+            </NavItem>
+            <NavItem>
+              <Link to='/roster' className='navbar-item'>roster</Link>
+            </NavItem>
+            <NavItem>
+              <Link to='/schedule' className='navbar-item'>schedule</Link>
+            </NavItem>
+            <NavItem>
+              <Link to='/highlights' className='navbar-item'>highlights</Link>
+            </NavItem>
+            <NavItem>
+              <Link to='/contact' className='navbar-item'>contact</Link>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+      {/* <header className='brand-container'>
         <Link to='/' className='brand'>
           <h1>'Shine</h1>
         </Link>
@@ -17,7 +55,7 @@ export default function Nav() {
           <Link to='/highlights' className='navbar-item'>highlights</Link>
           <Link to='/contact' className='navbar-item'>contact</Link>
         </div>
-      </nav>
+      </nav> */}
     </div>
   );
 }
