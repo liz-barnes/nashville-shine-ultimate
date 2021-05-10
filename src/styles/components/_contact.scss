@@ -1,7 +1,8 @@
 // TO DO: Update font
 .Contact {
-    margin-top: 125px;
+    padding-top: 125px;
     text-align: center;
+    background-color: $textColor;
 }
 
 .contact-form {
@@ -11,6 +12,7 @@
 }
 
 .contact-form-header {
+    color: $backgroundColor;
     letter-spacing: 2px;
 }
 

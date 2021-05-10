@@ -1,35 +1,75 @@
-.navbar-container {
-    display: grid;
-    justify-content: center;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-      grid-template-rows: auto;
-      grid-template-areas: 
-        "header . navbar navbar";
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: 1;
+// TO DO: navbar color on certain pages
+// TO DO: navbar toggle color
+
+// .navbar-container {
+//     // display: grid;
+//     // justify-content: center;
+//     //   grid-template-columns: 1fr 1fr 1fr 1fr;
+//     //   grid-template-rows: auto;
+//     //   grid-template-areas: 
+//     //     "header . navbar navbar";
+//     //     position: absolute;
+//     //     left: 0;
+//     //     top: 0;
+//     //     z-index: 1;
+//     // width: 100%;
+//   }
+
+  // .collapse.navbar-collapse {
+  //   justify-content: end;
+  //   width: 100px;
+  // }
+
+  // .navbar.color-nav {
+  //   // background-color: #A9B7C0 !important;
+  // }
+  
+  .navbar.color-nav {
+    z-index: 1;
     width: 100%;
+    position: absolute;
+    background: none;
+      // grid-area: navbar;
+      // justify-self: end;
+      // align-self: flex-start;
+      // margin-top: 15px;
+      // padding: 0px;
   }
   
-  .navbar {
-      grid-area: navbar;
-      justify-self: end;
-      align-self: flex-start;
+  // .brand-container {
+  //     grid-area: header;
+  //     margin: 10px 35px;
+  //     color: $backgroundColor;
+  // }
+
+  .navbar-brand {
+    margin-left: 25px;
   }
-  
-  .brand-container {
-      grid-area: header;
-      margin: 10px 25px;
+
+  .city {
+      padding-left: 10px;
+      line-height: 0;
   }
-  
-  .brand {
+
+  a.brand {
       font-size: 42px;
+      color: $backgroundColor;
+      text-decoration: none;
+  }
+
+  .brand h1 {
+    font-weight: bolder;
   }
   
-  .navbar-item {
-      margin: 0px 25px;
+  a.navbar-item {
+      margin-right: 20px;
       font-size: 20px;
+      color: $backgroundColor;
+      text-decoration: none;
+  }
+
+  .navbar-toggler {
+    margin-right: 35px;
   }
 // .navbar-container {
 //     display: grid;
