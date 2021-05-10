@@ -6,6 +6,7 @@ import roster2018 from '../../helpers/data/roster2018';
 export default function Roster() {
   return (
     <div id='roster-page' className='page'>
+      {/* TO DO: add images for roster players, create tabs for roster years */}
       <div className='Section' style={{
         backgroundImage: `url(${sectionals})`,
       }}>

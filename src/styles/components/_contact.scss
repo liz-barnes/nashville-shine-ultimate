@@ -20,15 +20,15 @@
     margin: 10px 0px;
 }
 
-// TO DO: Style submit button
 .submit-button {
+    background-color: $backgroundColor;
+    color: $textColor;
     margin: 0px;
     border-radius: 5px;
-    padding: 2px 15px;
-    border: none;
+    padding: 4px 15px;
 }
 
 .submit-button:hover {
     background-color: $accentColor;
-    border: 2px solid $accentColor;
+    box-shadow: 2px 2px 2px $backgroundColor;
 }
