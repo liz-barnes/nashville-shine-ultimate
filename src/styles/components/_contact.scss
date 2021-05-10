@@ -9,6 +9,7 @@
     margin: auto;
     width: 50%;
     padding-top: 10px;
+    font-family: $fourthFont;
 }
 
 .contact-form-header {
@@ -31,4 +32,8 @@
 .submit-button:hover {
     background-color: $accentColor;
     box-shadow: 2px 2px 2px $backgroundColor;
+}
+
+.email {
+    color: $backgroundColor;
 }

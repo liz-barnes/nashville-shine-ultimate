@@ -19,6 +19,7 @@ export default function Contact() {
   return (
     <div className="Contact page">
       <h1 className='contact-form-header'>Contact Us</h1>
+      <p className='email'>nashvilleshineulti@gmail.com</p>
       <div class="contact-form">
         <form id="contact-form" onSubmit={sendEmail}>
             <input name="name" type="text" className="form-control" placeholder="Name" required />
