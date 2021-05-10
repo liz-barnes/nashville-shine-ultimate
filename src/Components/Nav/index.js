@@ -13,14 +13,14 @@ export default function MyNavbar() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div className='navbar-container'>
+    <div className='navbar-container' style={{ backgroundColor: '#000000' }}>
       {/* <header className='brand-container'>
         <Link to='/' className='brand'>
           <h1>'Shine</h1>
         </Link>
         <p className='city'>Nashville, TN</p>
       </header> */}
-      <Navbar color="light" light expand="md" className='justify-content-between color-nav'>
+      <Navbar color="light" light expand="md" className='justify-content-between color-nav bg-transparent'>
       <NavbarBrand href="/" className="mr-auto">
         <Link to='/' className='brand'>
           <h1>'Shine</h1>

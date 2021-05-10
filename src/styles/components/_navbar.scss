@@ -17,8 +17,11 @@
   //   width: 100px;
   // }
   
-  .color-nav {
-    background-color: greenyellow;
+  .navbar.color-nav {
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    background: none;
       // grid-area: navbar;
       // justify-self: end;
       // align-self: flex-start;
