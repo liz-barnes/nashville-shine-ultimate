@@ -2,7 +2,7 @@
 .Contact {
     padding-top: 125px;
     text-align: center;
-    background-color: rgb(182, 182, 182);
+    background-color: $textColor;
 }
 
 .contact-form {
@@ -12,6 +12,7 @@
 }
 
 .contact-form-header {
+    color: $backgroundColor;
     letter-spacing: 2px;
 }
 

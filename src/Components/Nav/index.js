@@ -22,7 +22,7 @@ export default function MyNavbar() {
       </header> */}
       <Navbar color="light" light expand="md" className={isOpen ? 'justify-content-between color-nav' : 'justify-content-between color-nav bg-transparent'}>
       <NavbarBrand href="/" className="mr-auto">
-        <Link to='/' className='brand'>
+        <Link to='/' className='brand' style={{ backgroundImage: 'url(images/logo.png)' }}>
           <h1>'Shine</h1>
         </Link>
         <p className='city'>Nashville, TN</p>
