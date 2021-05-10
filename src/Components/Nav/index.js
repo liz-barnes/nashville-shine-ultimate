@@ -6,6 +6,7 @@ import {
   NavbarToggler,
   Nav,
   NavItem,
+  NavbarBrand,
 } from 'reactstrap';
 
 export default function MyNavbar() {
@@ -13,16 +14,22 @@ export default function MyNavbar() {
   const toggle = () => setIsOpen(!isOpen);
   return (
     <div className='navbar-container'>
-      <header className='brand-container'>
+      {/* <header className='brand-container'>
         <Link to='/' className='brand'>
           <h1>'Shine</h1>
         </Link>
         <p className='city'>Nashville, TN</p>
-      </header>
-      <Navbar color="light" light expand="md" className='justify-content-between'>
+      </header> */}
+      <Navbar color="light" light expand="md" className='justify-content-between color-nav'>
+      <NavbarBrand href="/" className="mr-auto">
+        <Link to='/' className='brand'>
+          <h1>'Shine</h1>
+        </Link>
+        <p className='city'>Nashville, TN</p>
+      </NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
-          <Nav className='mr-auto' navbar>
+          <Nav className='ml-auto navbar' navbar>
             <NavItem>
               <Link to='/about' className='navbar-item'>about</Link>
             </NavItem>
