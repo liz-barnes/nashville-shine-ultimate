@@ -31,9 +31,6 @@ export default function MyNavbar() {
         <Collapse isOpen={isOpen} navbar>
           <Nav className='ml-auto navbar' navbar>
             <NavItem>
-              <Link to='/about' className='navbar-item'>about</Link>
-            </NavItem>
-            <NavItem>
               <Link to='/roster' className='navbar-item'>roster</Link>
             </NavItem>
             <NavItem>

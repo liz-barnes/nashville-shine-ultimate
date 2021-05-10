@@ -1,25 +1,25 @@
-.navbar-container {
-    // display: grid;
-    // justify-content: center;
-    //   grid-template-columns: 1fr 1fr 1fr 1fr;
-    //   grid-template-rows: auto;
-    //   grid-template-areas: 
-    //     "header . navbar navbar";
-    //     position: absolute;
-    //     left: 0;
-    //     top: 0;
-    //     z-index: 1;
-    // width: 100%;
-  }
+// .navbar-container {
+//     // display: grid;
+//     // justify-content: center;
+//     //   grid-template-columns: 1fr 1fr 1fr 1fr;
+//     //   grid-template-rows: auto;
+//     //   grid-template-areas: 
+//     //     "header . navbar navbar";
+//     //     position: absolute;
+//     //     left: 0;
+//     //     top: 0;
+//     //     z-index: 1;
+//     // width: 100%;
+//   }
 
   // .collapse.navbar-collapse {
   //   justify-content: end;
   //   width: 100px;
   // }
 
-  .navbar.color-nav {
-    // background-color: #A9B7C0 !important;
-  }
+  // .navbar.color-nav {
+  //   // background-color: #A9B7C0 !important;
+  // }
   
   .navbar.color-nav {
     z-index: 1;
@@ -33,10 +33,14 @@
       // padding: 0px;
   }
   
-  .brand-container {
-      grid-area: header;
-      margin: 10px 35px;
-      color: $backgroundColor;
+  // .brand-container {
+  //     grid-area: header;
+  //     margin: 10px 35px;
+  //     color: $backgroundColor;
+  // }
+
+  .navbar-brand {
+    margin-left: 25px;
   }
 
   .city {
