@@ -1,6 +1,7 @@
 import React from 'react';
 import sectionals from '../../helpers/images/sectionals.jpeg';
-import roster19 from '../../helpers/data/roster2019';
+import roster2019 from '../../helpers/data/roster2019';
+import roster2018 from '../../helpers/data/roster2018';
 
 export default function Roster() {
   return (
@@ -18,11 +19,11 @@ export default function Roster() {
           </div>
           <div className='roster'>
             <h4 className='year'>2019</h4>
-            {roster19.map((player) => <li>{player.name}</li>)}
+            {roster2019.map((player) => <li>{player.name}</li>)}
           </div>
           <div className='roster'>
             <h4 className='year'>2018</h4>
-            {roster19.map((player) => <li>{player.name}</li>)}
+            {roster2018.map((player) => <li>{player.name}</li>)}
           </div>
         </div>
       </section>
