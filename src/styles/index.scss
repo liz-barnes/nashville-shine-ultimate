@@ -3,9 +3,11 @@
 @import 'variables';
 @import './components/';
 
+// TO DO: mobile-friendly. min-width for divs
+
 
 body {
-  background-color: rgb(182, 182, 182);
+  background-color: $backgroundColor;
   text-transform: uppercase;
   font-family: $primaryFont;
   color: $textColor;

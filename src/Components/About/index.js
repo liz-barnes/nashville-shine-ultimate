@@ -6,6 +6,7 @@ export default function About() {
     <div id='about-page'>
       <section id='about-us' className='page' style={{ backgroundImage: `url(${fives})` }}>
           <h1 className='blurb'>Nashville Elite Mixed Ultimate Frisbee Club</h1>
+          {/* TO DO: spacing with SCF on screen downsize */}
           <p className='SCF'>Spirit. Competition. Fun.</p>
       </section>
       <div id='shine-blurb' className='Section'>
