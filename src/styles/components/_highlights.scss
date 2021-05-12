@@ -4,8 +4,10 @@
 }
 
 .gallery-container {
-  margin: 0px 125px;
+  margin: auto;
+  padding: 0px 2.5rem 50px 2.5rem;
   padding-bottom: 50px;
+  min-width: 350px;
 }
 
 .highlight-videos {
@@ -13,15 +15,25 @@
   flex-flow: row wrap;
   justify-content: center;
   margin: auto;
+  max-width: 750px;
   width: 75%;
   padding-bottom: 50px;
 }
 
 .video {
-  padding: 10px
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  margin: 10px;
 }
 
-iframe {
-  width: 35rem;
-  position: relative;
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
 }
