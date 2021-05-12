@@ -18,7 +18,7 @@ export default function Highlights() {
             height="315"
             src="https://www.youtube-nocookie.com/embed/s_ezCrowWbg"
             frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>
@@ -29,7 +29,7 @@ export default function Highlights() {
             height="315"
             src="https://www.youtube.com/embed/jXOFOk7GIn8"
             frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen;"
             allowfullscreen
           ></iframe>
         </div>
