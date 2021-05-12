@@ -18,14 +18,17 @@ export default function Contact() {
 
   return (
     <div className="Contact page">
-      <h1 className='contact-form-header'>Contact Us</h1>
+      <div className='contact-form-banner'>
+        <h1 className='contact-form-header'>Contact Us</h1>
+        <p className='email'>nashvilleshineulti@gmail.com</p>
+      </div>
       <div class="contact-form">
         <form id="contact-form" onSubmit={sendEmail}>
             <input name="name" type="text" className="form-control" placeholder="Name" required />
             <input name="email" type="text" className="form-control" placeholder="Email" required />
             <input name="subject" type="text" className="form-control" placeholder="Subject" required />
             <textarea name="message" type="text" className="form-control" placeholder="Message" rows="8" required></textarea><br/>
-            <button type="submit" className='submit-button'>SUBMIT</button>
+            <button type="submit" className='submit-button'>SEND MESSAGE</button>
         </form>
       </div>
     </div>
