@@ -9,7 +9,6 @@ export default function Highlights() {
         <Gallery photos={gallery} />
       </div>
       <div className='highlight-videos'>
-        {/* TO DO: Make video size responsive */}
         <div className='video'>
           <iframe
             className='responsive-iframe'

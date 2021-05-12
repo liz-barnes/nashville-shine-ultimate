@@ -5,7 +5,7 @@ const gallery = [
     height: 3,
   },
   {
-    src: 'images/shine-booty.jpg',
+    src: 'images/shine-circle.jpg',
     width: 5,
     height: 3,
   },
@@ -55,7 +55,7 @@ const gallery = [
     height: 3,
   },
   {
-    src: 'images/shine-circle.jpg',
+    src: 'images/shine-circle2.jpg',
     width: 5,
     height: 3.5,
   },
@@ -63,6 +63,11 @@ const gallery = [
     src: 'images/shine-sadie2.jpg',
     width: 5,
     height: 3.5,
+  },
+  {
+    src: 'images/shine-booty.jpg',
+    width: 5,
+    height: 3,
   },
   {
     src: 'images/shine-trip-d.jpg',
