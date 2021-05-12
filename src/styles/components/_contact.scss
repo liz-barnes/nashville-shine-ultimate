@@ -1,39 +1,41 @@
 // TO DO: Update font
 .Contact {
-    padding-top: 125px;
-    text-align: center;
-    background-color: $textColor;
+  padding-top: 125px;
+  text-align: center;
+  background-color: $textColor;
 }
 
 .contact-form {
-    margin: auto;
-    width: 50%;
-    padding-top: 10px;
-    font-family: $fourthFont;
+  margin: auto;
+  width: 50%;
+  font-family: $fourthFont;
 }
 
 .contact-form-header {
-    color: $backgroundColor;
-    letter-spacing: 2px;
+  color: $backgroundColor;
+  margin: auto;
+  letter-spacing: 2px;
+  width: 50%;
 }
 
 .form-control {
-    margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .submit-button {
-    background-color: $backgroundColor;
-    color: $textColor;
-    margin: 0px;
-    border-radius: 5px;
-    padding: 4px 15px;
+  background-color: $backgroundColor;
+  color: $textColor;
+  margin: 0px;
+  border-radius: 5px;
+  padding: 4px 15px;
 }
 
 .submit-button:hover {
-    background-color: $accentColor;
-    box-shadow: 2px 2px 2px $backgroundColor;
+  background-color: $accentColor;
+  box-shadow: 2px 2px 2px $backgroundColor;
 }
 
-.email {
-    color: $backgroundColor;
+p.email {
+  color: $backgroundColor;
+  padding: 0px;
 }
