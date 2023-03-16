@@ -1,4 +1,4 @@
-# Nashville 'Shine Ultimate Frisbee Club
+# Nashville 'Shine Ultimate Frisbee Club Team
 >‘Shine is a competitive, mixed club team based in Nashville, Tennessee. We strive for a lasting culture of competition, integrity, respect, fun, and development that benefits our players and improves ultimate in the Nashville community.
 
 ## Objective
