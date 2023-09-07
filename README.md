@@ -8,4 +8,4 @@ To create a website that promotes visibility for ‘Shine, increases team and pl
 Ultimate frisbee players of all ages, potential recruits, friends and family of players, existing and future fans, Nashville community.
 
 ## How magic was made
-This project will be made using Javascript, React, SASS and EmailJS
+This project was made possible by Javascript, React, SASS and EmailJS
